@@ -6,4 +6,4 @@ This repository contains basic scripts to generate and train models and syntheti
 
 ## Dependencies
 The `conda`environment specifications used for this project can be found in `environment.yml`. However, not all dependencies listed there are strictly necesary.
-Main required Python libraries have widespread use (matplotlib, scikit.learn, scipy, numpy and pathlib), so the scripts can be ran on any environment provided those libraries are installed.
+Main required Python libraries have widespread use (matplotlib, scikit-learn, scipy, numpy and pathlib), so the scripts can be ran on any environment provided those libraries are installed.
