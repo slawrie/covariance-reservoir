@@ -81,3 +81,8 @@ def preprocess_test_data(pp, d=50):
     #np.save(pp / 'dataset' / 'test_labels.npy', classes)
     return parsed_data_test, classes
 
+def next_batch(X, y, batchSize):
+    # loop over our dataset `X` in mini-batches of size `batchSize`
+    for i in np.arange(0, X.shape[0], batchSize):
+        # yield a tuple of the current batched data and labels
+        yield (X[i:i + batchSize, :, :], y[i:i + batchSize])
