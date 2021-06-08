@@ -14,5 +14,5 @@ File `synthetic_data.py` contains all code relevant to produce synthetic dataset
 ## Real data
 The spoken Arabic digits dataset can be freely downloaded from the UCI Machine Learning Repository website (https://archive.ics.uci.edu/ml/datasets/Spoken+Arabic+Digit). File `auxiliary_functions.py`contains functions to read the files and zero-pad them to produce samples with consistent length.
 
-## perceptron.ipynb
-This Jupyter notebook displays the code used to train a mean/covariance perceptron readout, coupled to a reservoir. As example, we use the spoken digits dataset, located in folder `/dataset`. 
+## digits_analysis_perceptron.ipynb
+This Jupyter notebook displays the code used to train a mean/covariance perceptron readout, with and without reservoir. As example, we use the spoken digits dataset, located in folder `/dataset`.
